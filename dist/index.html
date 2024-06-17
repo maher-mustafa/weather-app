@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+</head>
+<body>
+  <div class="parent p-10 bg-purple-600 w-full ">
+    <h1 class="text-center text-6xl text-white font-bold">Weather <span class="text-fuchsia-800">App</span></h1>
+    <div class="flex justify-between items-center text-orange-500"><img src="" id="icon"/>
+     <div class="time m-5 mb-5"></div></div>
+     
+    
+    <div class="search-container my-10 flex justify-center gap-10">
+     <label for="cities" class="sm:text-2xl md:text-4xl font-semibold text-sky-800 text-balance">Chose The City</label>
+      <select name="cities" id="cities" class="w-40 h-10 bg-gray-700">
+  
+  <option value="Cairo" selected>Cairo (الْقَاهِرَة)</option>
+  <option value="Alexandria">Alexandria (الإسكندرية)</option>
+  <option value="Giza">Giza (الجيزة)</option>
+  <option value="Port Said">Port Said (بورسعيد)</option>
+  <option value="Suez">Suez (السويس)</option>
+  <option value="Luxor">Luxor (الأقصر)</option>
+  <option value="Aswan">Aswan (أَسْوَان)</option>
+  <option value="Sharm El-Sheikh">Sharm El-Sheikh (شرم الشيخ)</option>
+  <option value="Hurghada">Hurghada (الغردقة)</option>
+  <option value="Mansoura">Mansoura (المنصورة)</option>
+         <option value="London">London</option>
+         <option value="Paris">Paris</option>
+         <option value="New York">New York</option>
+         <option value="Tokyo">Tokyo</option>
+         <option value="Berlin">Berlin</option>
+         <option value="Moscow">Moscow</option>
+         <option value="Madrid">Madrid</option>
+         <option value="Rome">Rome</option>
+         <option value="Dubai">Dubai</option>
+         <option value="Mumbai">Mumbai</option>
+         <option value="Singapore">Singapore</option>
+         <option value="Sydney">Sydney</option>
+         <option value="Bangkok">Bangkok</option>
+         <option value="Hong Kong">Hong Kong</option>
+         <option value="Beijing">Beijing</option>
+         <option value="Seoul">Seoul</option>
+         <option value="Shanghai">Shanghai</option>
+         <option value="Jakarta">Jakarta</option>
+         <option value="Mexico City">Mexico City</option>
+         <option value="Los Angeles">Los Angeles</option>
+         <option value="Chicago">Chicago</option>
+         <option value="Dallas">Dallas</option>
+         <option value="Houston">Houston</option>
+         <option value="San Francisco">San Francisco</option>
+         <option value="Atlanta">Atlanta</option>
+         <option value="Denver">Denver</option>
+         <option value="New Orleans">New Orleans</option>
+         <option value="Miami">Miami</option>
+
+       </select>
+    </div>
+<div class="flex justify-evenly flex-wrap overflow-hidden w-full gap-8">
+<div>
+  <div id="city" class="card"></div>
+  <h3 class="text-center my-3">City</h3>
+</div>
+
+<div>
+ <div id="weather" class="card"></div>
+ <h3 class="text-center my-3">Weather</h3>
+</div>
+
+<div>
+ <div id="humidity" class="card"></div>
+ <h3 class="text-center my-3">Humidity</h3>
+</div>
+<div>
+ <div id="temp" class="card"></div>
+ <h3 class="text-center my-3">Temp</h3>
+</div>
+<div>
+ <div id="wind" class="card"></div>
+ <h3 class="text-center my-3">Wind</h3>
+</div>
+<div>
+ <div id="clouds" class="card"></div>
+ <h3 class="text-center my-3">Clouds</h3>
+</div>
+
+
+ 
+
+</div>
+</div>
+
+
+ 
+ 
+ 
+ 
+
+
+ <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+ <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/es.js"></script>
+ 
+ <script src="app.js"></script>
+</body>
+</html>

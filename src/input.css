@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card{
+    @apply rounded-full w-auto h-auto bg-teal-800 justify-center flex items-center p-20;
+}
+.badge{
+    @apply absolute top-0 text-2xl font-bold bg-black opacity-70 p-3 rounded-full m-2;
+}
+.btn{
+    @apply cursor-pointer border-red-700 border-2 pt-3 px-4 rounded-lg;
+}
+.btn-hover{
+    @apply hover:bg-red-700 hover:text-white;
+}
+.link-hover{
+    @apply hover:text-red-700 hover:bg-gray-700 hover:opacity-45 cursor-pointer transition ease-in-out duration-700;
+}
+.input-search{
+    @apply border-2 border-gray-700 rounded-lg px-4 py-1;
+}

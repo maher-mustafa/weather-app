@@ -1,0 +1,20 @@
+{
+  "name": "project-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "homepage": "https://maher-mustafa.github.io/weather-app",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "deploy": "npm run build-css && gh-pages -d dist"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "tailwindcss": "^3.4.4"
+  }
+}
